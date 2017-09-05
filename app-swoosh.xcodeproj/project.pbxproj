@@ -13,6 +13,7 @@
 		6AE0E1E41F58995B0090F785 /* app_swoosh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0E1E21F58995B0090F785 /* app_swoosh.xcdatamodeld */; };
 		6AE0E1E61F58995B0090F785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0E1E51F58995B0090F785 /* Assets.xcassets */; };
 		6AE0E1E91F58995B0090F785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0E1E71F58995B0090F785 /* LaunchScreen.storyboard */; };
+		6AE0E1F21F589DB50090F785 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0E1F11F589DB50090F785 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6AE0E1E51F58995B0090F785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AE0E1E81F58995B0090F785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AE0E1EA1F58995B0090F785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE0E1F11F589DB50090F785 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6AE0E1DA1F58995B0090F785 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				6AE0E1F01F589D9A0090F785 /* Views */,
 				6AE0E1DB1F58995B0090F785 /* AppDelegate.swift */,
 				6AE0E1DD1F58995B0090F785 /* ViewController.swift */,
 				6AE0E1DF1F58995B0090F785 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				6AE0E1E21F58995B0090F785 /* app_swoosh.xcdatamodeld */,
 			);
 			path = "app-swoosh";
+			sourceTree = "<group>";
+		};
+		6AE0E1F01F589D9A0090F785 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0E1F11F589DB50090F785 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				6AE0E1DE1F58995B0090F785 /* ViewController.swift in Sources */,
 				6AE0E1E41F58995B0090F785 /* app_swoosh.xcdatamodeld in Sources */,
 				6AE0E1DC1F58995B0090F785 /* AppDelegate.swift in Sources */,
+				6AE0E1F21F589DB50090F785 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
